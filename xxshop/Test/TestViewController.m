@@ -6,6 +6,7 @@
 //
 
 #import "TestViewController.h"
+#import "RNTestViewController.h"
 
 @interface TestViewController ()
 
@@ -19,4 +20,8 @@
 }
 
 
+- (IBAction)go2RNTestPage:(id)sender {
+    RNTestViewController *vc = [RNTestViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end

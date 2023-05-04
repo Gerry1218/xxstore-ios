@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		958298BC81BB408F454DCBDD /* Pods_xxshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77141FC8D9784B7D137375EE /* Pods_xxshop.framework */; };
 		CBF197C62A039F5B0007B531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF197C52A039F5B0007B531 /* AppDelegate.m */; };
-		CBF197C92A039F5B0007B531 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF197C82A039F5B0007B531 /* SceneDelegate.m */; };
 		CBF197CC2A039F5B0007B531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF197CB2A039F5B0007B531 /* ViewController.m */; };
 		CBF197CF2A039F5B0007B531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF197CD2A039F5B0007B531 /* Main.storyboard */; };
 		CBF197D12A039F5D0007B531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF197D02A039F5D0007B531 /* Assets.xcassets */; };
@@ -16,14 +16,20 @@
 		CBF197D72A039F5D0007B531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF197D62A039F5D0007B531 /* main.m */; };
 		CBF197E12A03A0690007B531 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF197DE2A03A0680007B531 /* TestViewController.m */; };
 		CBF197E22A03A0690007B531 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF197E02A03A0680007B531 /* TestViewController.xib */; };
+		CBF197F12A03AA6D0007B531 /* RNBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF197EF2A03AA6D0007B531 /* RNBridge.m */; };
+		CBF197F52A03AD560007B531 /* RNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF197F42A03AD560007B531 /* RNBaseViewController.m */; };
+		CBF197F82A03ADB70007B531 /* RNNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF197F62A03ADB70007B531 /* RNNavBar.m */; };
+		CBF198002A03B58A0007B531 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF197FE2A03B58A0007B531 /* UIColor+Utils.m */; };
+		CBF198042A03B85C0007B531 /* RNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF198022A03B85C0007B531 /* RNTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0446800216EB4072C76B500E /* Pods-xxshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xxshop.debug.xcconfig"; path = "Target Support Files/Pods-xxshop/Pods-xxshop.debug.xcconfig"; sourceTree = "<group>"; };
+		551DF74FF8D7704DF50809CC /* Pods-xxshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xxshop.release.xcconfig"; path = "Target Support Files/Pods-xxshop/Pods-xxshop.release.xcconfig"; sourceTree = "<group>"; };
+		77141FC8D9784B7D137375EE /* Pods_xxshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xxshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF197C12A039F5B0007B531 /* xxshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xxshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF197C42A039F5B0007B531 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBF197C52A039F5B0007B531 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBF197C72A039F5B0007B531 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CBF197C82A039F5B0007B531 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		CBF197CA2A039F5B0007B531 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CBF197CB2A039F5B0007B531 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CBF197CE2A039F5B0007B531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +40,20 @@
 		CBF197DE2A03A0680007B531 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		CBF197DF2A03A0680007B531 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		CBF197E02A03A0680007B531 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		CBF197EF2A03AA6D0007B531 /* RNBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBridge.m; sourceTree = "<group>"; };
+		CBF197F02A03AA6D0007B531 /* RNBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBridge.h; sourceTree = "<group>"; };
+		CBF197F32A03AD560007B531 /* RNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBaseViewController.h; sourceTree = "<group>"; };
+		CBF197F42A03AD560007B531 /* RNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBaseViewController.m; sourceTree = "<group>"; };
+		CBF197F62A03ADB70007B531 /* RNNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNavBar.m; sourceTree = "<group>"; };
+		CBF197F72A03ADB70007B531 /* RNNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNavBar.h; sourceTree = "<group>"; };
+		CBF197F92A03ADD80007B531 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CBF197FA2A03AEC90007B531 /* RNConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNConstants.h; sourceTree = "<group>"; };
+		CBF197FB2A03AF190007B531 /* xxshop.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xxshop.pch; sourceTree = "<group>"; };
+		CBF197FC2A03B2F00007B531 /* ColorConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorConstants.h; sourceTree = "<group>"; };
+		CBF197FE2A03B58A0007B531 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		CBF197FF2A03B58A0007B531 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		CBF198022A03B85C0007B531 /* RNTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTestViewController.m; sourceTree = "<group>"; };
+		CBF198032A03B85C0007B531 /* RNTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTestViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958298BC81BB408F454DCBDD /* Pods_xxshop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79021C7CF1C73B08C1692634 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0446800216EB4072C76B500E /* Pods-xxshop.debug.xcconfig */,
+				551DF74FF8D7704DF50809CC /* Pods-xxshop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CBF197B82A039F5B0007B531 = {
 			isa = PBXGroup;
 			children = (
 				CBF197C32A039F5B0007B531 /* xxshop */,
 				CBF197C22A039F5B0007B531 /* Products */,
+				79021C7CF1C73B08C1692634 /* Pods */,
+				E22E5ECF14921B60B00A9920 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,18 +98,11 @@
 		CBF197C32A039F5B0007B531 /* xxshop */ = {
 			isa = PBXGroup;
 			children = (
+				CBF197E42A03A8B70007B531 /* App */,
+				CBF197E32A03A6CE0007B531 /* RNComponents */,
 				CBF197DD2A03A0680007B531 /* Test */,
-				CBF197C42A039F5B0007B531 /* AppDelegate.h */,
-				CBF197C52A039F5B0007B531 /* AppDelegate.m */,
-				CBF197C72A039F5B0007B531 /* SceneDelegate.h */,
-				CBF197C82A039F5B0007B531 /* SceneDelegate.m */,
-				CBF197CA2A039F5B0007B531 /* ViewController.h */,
-				CBF197CB2A039F5B0007B531 /* ViewController.m */,
-				CBF197CD2A039F5B0007B531 /* Main.storyboard */,
 				CBF197D02A039F5D0007B531 /* Assets.xcassets */,
-				CBF197D22A039F5D0007B531 /* LaunchScreen.storyboard */,
 				CBF197D52A039F5D0007B531 /* Info.plist */,
-				CBF197D62A039F5D0007B531 /* main.m */,
 			);
 			path = xxshop;
 			sourceTree = "<group>";
@@ -85,11 +110,142 @@
 		CBF197DD2A03A0680007B531 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				CBF198032A03B85C0007B531 /* RNTestViewController.h */,
+				CBF198022A03B85C0007B531 /* RNTestViewController.m */,
 				CBF197DF2A03A0680007B531 /* TestViewController.h */,
 				CBF197DE2A03A0680007B531 /* TestViewController.m */,
 				CBF197E02A03A0680007B531 /* TestViewController.xib */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		CBF197E32A03A6CE0007B531 /* RNComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CBF197FA2A03AEC90007B531 /* RNConstants.h */,
+				CBF197F02A03AA6D0007B531 /* RNBridge.h */,
+				CBF197EF2A03AA6D0007B531 /* RNBridge.m */,
+				CBF197EE2A03AA3C0007B531 /* Base */,
+				CBF197ED2A03AA320007B531 /* bundles */,
+				CBF197EC2A03AA270007B531 /* Pages */,
+			);
+			path = RNComponents;
+			sourceTree = "<group>";
+		};
+		CBF197E42A03A8B70007B531 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CBF197FD2A03B5670007B531 /* Category */,
+				CBF197F22A03AA9E0007B531 /* Constants */,
+				CBF197E92A03A9740007B531 /* Components */,
+				CBF197E82A03A95E0007B531 /* UI */,
+				CBF197E72A03A9540007B531 /* Common */,
+				CBF197E62A03A9480007B531 /* Main */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CBF197E62A03A9480007B531 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CBF197C42A039F5B0007B531 /* AppDelegate.h */,
+				CBF197C52A039F5B0007B531 /* AppDelegate.m */,
+				CBF197CA2A039F5B0007B531 /* ViewController.h */,
+				CBF197CB2A039F5B0007B531 /* ViewController.m */,
+				CBF197CD2A039F5B0007B531 /* Main.storyboard */,
+				CBF197D22A039F5D0007B531 /* LaunchScreen.storyboard */,
+				CBF197D62A039F5D0007B531 /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CBF197E72A03A9540007B531 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CBF197E82A03A95E0007B531 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CBF197E92A03A9740007B531 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CBF197EB2A03A9840007B531 /* Vendor */,
+				CBF197EA2A03A97D0007B531 /* Custom */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CBF197EA2A03A97D0007B531 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		CBF197EB2A03A9840007B531 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		CBF197EC2A03AA270007B531 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		CBF197ED2A03AA320007B531 /* bundles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bundles;
+			sourceTree = "<group>";
+		};
+		CBF197EE2A03AA3C0007B531 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CBF197F72A03ADB70007B531 /* RNNavBar.h */,
+				CBF197F62A03ADB70007B531 /* RNNavBar.m */,
+				CBF197F32A03AD560007B531 /* RNBaseViewController.h */,
+				CBF197F42A03AD560007B531 /* RNBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CBF197F22A03AA9E0007B531 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CBF197FB2A03AF190007B531 /* xxshop.pch */,
+				CBF197F92A03ADD80007B531 /* Constants.h */,
+				CBF197FC2A03B2F00007B531 /* ColorConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CBF197FD2A03B5670007B531 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CBF197FF2A03B58A0007B531 /* UIColor+Utils.h */,
+				CBF197FE2A03B58A0007B531 /* UIColor+Utils.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E22E5ECF14921B60B00A9920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77141FC8D9784B7D137375EE /* Pods_xxshop.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBF197DA2A039F5D0007B531 /* Build configuration list for PBXNativeTarget "xxshop" */;
 			buildPhases = (
+				3922935B089164F2DAE48CEE /* [CP] Check Pods Manifest.lock */,
 				CBF197BD2A039F5B0007B531 /* Sources */,
 				CBF197BE2A039F5B0007B531 /* Frameworks */,
 				CBF197BF2A039F5B0007B531 /* Resources */,
+				846EE7DAA3C445556D404258 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,7 +285,7 @@
 				};
 			};
 			buildConfigurationList = CBF197BC2A039F5B0007B531 /* Build configuration list for PBXProject "xxshop" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -158,16 +316,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3922935B089164F2DAE48CEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xxshop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		846EE7DAA3C445556D404258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xxshop/Pods-xxshop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xxshop/Pods-xxshop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xxshop/Pods-xxshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBF197BD2A039F5B0007B531 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF198042A03B85C0007B531 /* RNTestViewController.m in Sources */,
+				CBF197F12A03AA6D0007B531 /* RNBridge.m in Sources */,
+				CBF198002A03B58A0007B531 /* UIColor+Utils.m in Sources */,
 				CBF197CC2A039F5B0007B531 /* ViewController.m in Sources */,
 				CBF197C62A039F5B0007B531 /* AppDelegate.m in Sources */,
 				CBF197D72A039F5D0007B531 /* main.m in Sources */,
-				CBF197C92A039F5B0007B531 /* SceneDelegate.m in Sources */,
+				CBF197F52A03AD560007B531 /* RNBaseViewController.m in Sources */,
 				CBF197E12A03A0690007B531 /* TestViewController.m in Sources */,
+				CBF197F82A03ADB70007B531 /* RNNavBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,16 +509,18 @@
 		};
 		CBF197DB2A039F5D0007B531 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0446800216EB4072C76B500E /* Pods-xxshop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_STICKER_PACK_IDENTIFIER_PREFIX = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/xxshop/App/Constants/xxshop.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = xxshop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,16 +537,18 @@
 		};
 		CBF197DC2A039F5D0007B531 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551DF74FF8D7704DF50809CC /* Pods-xxshop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_STICKER_PACK_IDENTIFIER_PREFIX = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/xxshop/App/Constants/xxshop.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = xxshop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
